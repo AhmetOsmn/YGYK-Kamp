@@ -58,8 +58,6 @@ namespace ClassMetotDemo
                 Console.WriteLine("-------------------------------------");
             }
 
-
-
         }
     }
 }
