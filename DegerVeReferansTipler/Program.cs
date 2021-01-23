@@ -18,7 +18,6 @@ namespace DegerVeReferansTipler
             sayilar2[0] = 999;
             Console.WriteLine(sayilar1[0]);
 
-
             //int, decimal, float, double, bool = deger tip
             //array, class , interface = referans tip
         }

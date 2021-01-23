@@ -29,7 +29,6 @@ namespace ClassIntro
             kurs4.Egitmen = "Sabri Sezgin";
             kurs4.IzlemeOrani = 90;
 
-
             //Console.WriteLine(kurs1.KursAdi + "  " + kurs1.Egitmen);
 
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3, kurs4 };

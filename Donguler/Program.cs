@@ -24,7 +24,6 @@ namespace Donguler
                 Console.WriteLine(kurs);
             }
 
-
             Console.WriteLine("Sayfa sonu");
         }
     }

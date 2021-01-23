@@ -6,7 +6,6 @@ namespace ClassMetotDemo
     {
         static void Main(string[] args)
         {
-
             Musteri m1 = new Musteri();
             m1.Ad = "Ahmet";
             m1.Soyad = "Sezgin";

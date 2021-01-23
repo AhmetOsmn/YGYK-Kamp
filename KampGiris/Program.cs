@@ -7,6 +7,7 @@ namespace KampGiris
         static void Main(string[] args)
         {
             Console.WriteLine("Kampa Hosgeldin !!!");
+
         }
     }
 }

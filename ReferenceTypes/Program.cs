@@ -22,7 +22,6 @@ namespace ReferenceTypes
             //sayilar2[0] = 1000;
             //Console.WriteLine("Sayilar1[0] = " + sayilar1[0]);//sonuc = 1000 olur
 
-
             Person person1 = new Person();
             Person person2 = new Person();
             person1.FirstName = "Ahmet";

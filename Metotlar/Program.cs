@@ -8,11 +8,7 @@ namespace Metotlar
         {
             /*
             ctrl + enter: bulunulan satirin bir ustune yeni satir eklenir.
-
-
-
             */
-
 
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
