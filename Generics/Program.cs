@@ -57,6 +57,4 @@ namespace Generics
         }
 
     }
-
-
 }

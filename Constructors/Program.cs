@@ -34,6 +34,5 @@ namespace Constructors
         public string LastName { get; set; }
         public string City { get; set; }
 
-
     }
 }

@@ -15,10 +15,6 @@ namespace MyDictionary
 
             myDictionary.Add(3, "Ali"); //Ayni key ile ekleme yapiliyor, --> 'Ayni key zaten girilmis' yazisi ekrana basiliyor ve ekleme yapilmiyor.
 
-
-            
-
-
         }
     }
 }
