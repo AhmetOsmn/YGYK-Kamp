@@ -28,11 +28,11 @@ namespace SalesGame
             Player palyer3 = new Player { Name = "Mert Altin", CustomerId = 3, NationalityId = "12345", DateOfBirth = new DateTime(2000, 3, 19)};
             Player palyer4 = new Player { Name = "Emre Doran", CustomerId = 4, NationalityId = "123456", DateOfBirth = new DateTime(2000, 3, 20)};
             Player palyer5 = new Player { Name = "Burak Guney", CustomerId = 5, NationalityId = "1234567", DateOfBirth = new DateTime(2000,3,21)};
-            Player palyer6 = new Player { Name = "Ahmet Sezgin", CustomerId = 6, NationalityId = "12345678", DateOfBirth = new DateTime(2000, 3, 22)};
+            Player palyer6 = new Player { Name = "AHMET SEZGIN", CustomerId = 6, NationalityId = "12345678", DateOfBirth = new DateTime(2000, 3, 22)};
 
 
 
-            IEntityService playerManager = new PlayerManager();
+            PlayerManager playerManager = new PlayerManager(new UserValidationManager());
             IEntityService gameManager = new GameManager();
             ICampaignService campaignManager = new CampaignManager();
             

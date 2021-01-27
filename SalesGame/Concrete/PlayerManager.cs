@@ -7,10 +7,25 @@ namespace SalesGame.Concrete
 {
     public class PlayerManager : IEntityService
     {
-        public void Add(IEntity player, List<IEntity> players)
+        IUserValidationService _userValidationService;
+
+        public PlayerManager(IUserValidationService userValidationService)
         {
-            players.Add(player);
-            Console.WriteLine(player.Name + " basariyla eklendi.");
+            _userValidationService = userValidationService;
+        }
+
+        public void Add(IEntity entity, List<IEntity> entities)
+        {
+            if (_userValidationService.Validate(entity))
+            {
+                entities.Add(entity);
+                Console.WriteLine(entity.Name + " basariyla eklendi.");
+            }
+            else
+            {
+                Console.WriteLine("Dogrulama Basarisiz...");
+            }
+           
         }
     
 
